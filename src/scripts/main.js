@@ -3,8 +3,8 @@
 const table = document.querySelector('table');
 const tbody = table.querySelector('tbody');
 
-function formatData(Data) {
-  return parseFloat(Data.replace(/[$,]/g, ''));
+function formatData(data) {
+  return parseFloat(data.replace(/[$,]/g, ''));
 }
 
 table.addEventListener('click', (e) => {
